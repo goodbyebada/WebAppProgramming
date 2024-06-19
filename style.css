@@ -28,6 +28,36 @@ a {
   text-align: center;
   font-size: 20pt;
 }
+
+/* logo-page */
+
+.show-logo .content {
+  text-align: center;
+}
+.show-logo .content h1 {
+  font-family: initial;
+  font-size: 100px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.show-logo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f0e7;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.show-logo #main-logo {
+  background-image: url("images/logo.png");
+  width: 475.33px;
+  height: 469.68px;
+  background-size: cover;
+}
+
 /* mainpage */
 .main-frame {
   position: absolute;
